@@ -53,8 +53,8 @@ def publish(quantity):# defining publish method
     arn = 'arn:aws:sns:us-east-1:206070559467:InStockTopic' #Amazon Resourse Name(ARN) used to uniquely identify AWS Resources
     sns_client = boto3.client( #It is an SNS client
         'sns',
-        aws_access_key_id='xxxz', 
-        aws_secret_access_key='xxxx',
+        aws_access_key_id='', 
+        aws_secret_access_key='',
         region_name='us-east-1'
     )
 
